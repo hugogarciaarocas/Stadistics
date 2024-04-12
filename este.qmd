@@ -19,3 +19,7 @@ pbinom(k,n,p) para P(X\<= k)
 q = qbinom(0.3,n,p ) para P(X\<= q)\>= 0.3
 
 se puede cambiar "binom" por "norm", "chisq", "exp", "pois", ...
+
+```{r}
+plot(seq(-10,10,by = 0.001), dnorm(seq(-10,10,by = 0.001)))
+```
