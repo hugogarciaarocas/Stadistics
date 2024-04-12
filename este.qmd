@@ -7,7 +7,15 @@ editor: visual
 ```{r}
 x<-c(4,7,2,5,6,7,4)
 y<-c(1,2,3,4,5,6,7)
-plot(x,y)
+plot(x,y,ylab = "ejeY",xlab = "ejeX")
 ```
 
 ## 
+
+dbinom(k,n,p) para P(X=k)
+
+pbinom(k,n,p) para P(X\<= k)
+
+q = qbinom(0.3,n,p ) para P(X\<= q)\>= 0.3
+
+se puede cambiar "binom" por norm, chisq, exp, pois...
